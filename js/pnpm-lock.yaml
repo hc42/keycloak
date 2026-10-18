@@ -94,8 +94,8 @@ importers:
         specifier: ^5.4.16
         version: 5.4.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       i18next:
-        specifier: ^25.7.3
-        version: 25.7.3(typescript@5.9.3)
+        specifier: ^26.4.6
+        version: 26.4.6(typescript@5.9.3)
       i18next-fetch-backend:
         specifier: ^7.0.0
         version: 7.0.0
@@ -116,7 +116,7 @@ importers:
         version: 7.70.0(react@18.3.1)
       react-i18next:
         specifier: ^16.5.1
-        version: 16.5.1(i18next@25.7.3(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 16.5.1(i18next@26.4.6(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       react-router-dom:
         specifier: ^7.18.2
         version: 7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -191,8 +191,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       i18next:
-        specifier: ^25.7.3
-        version: 25.7.3(typescript@5.9.3)
+        specifier: ^26.4.6
+        version: 26.4.6(typescript@5.9.3)
       i18next-fetch-backend:
         specifier: ^7.0.0
         version: 7.0.0
@@ -219,7 +219,7 @@ importers:
         version: 7.70.0(react@18.3.1)
       react-i18next:
         specifier: ^16.5.1
-        version: 16.5.1(i18next@25.7.3(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 16.5.1(i18next@26.4.6(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       react-router-dom:
         specifier: ^7.18.2
         version: 7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -406,8 +406,8 @@ importers:
         specifier: ^5.4.16
         version: 5.4.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       i18next:
-        specifier: ^25.7.3
-        version: 25.7.3(typescript@5.9.3)
+        specifier: ^26.4.6
+        version: 26.4.6(typescript@5.9.3)
       keycloak-js:
         specifier: ^26.2.2
         version: 26.2.2
@@ -425,7 +425,7 @@ importers:
         version: 7.70.0(react@18.3.1)
       react-i18next:
         specifier: ^16.5.1
-        version: 16.5.1(i18next@25.7.3(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 16.5.1(i18next@26.4.6(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
     devDependencies:
       '@testing-library/react':
         specifier: ^16.3.1
@@ -3117,10 +3117,10 @@ packages:
     resolution: {integrity: sha512-BUS/xzHDXNwGKKBQTaNWxY3xvgC40jcYw+4nSpTlaxcGenAubgIgBFuq4CIeeYcs3UkAQs8mf5y6iLnHhd01vw==}
     engines: {node: '>=20'}
 
-  i18next@25.7.3:
-    resolution: {integrity: sha512-2XaT+HpYGuc2uTExq9TVRhLsso+Dxym6PWaKpn36wfBmTI779OQ7iP/XaZHzrnGyzU4SHpFrTYLKfVyBfAhVNA==}
+  i18next@26.4.6:
+    resolution: {integrity: sha512-f/QHPNtH3XmBjL3sCRCrp5+jycwgV0W9fr1Vsy5msg1mR5grgaHc8eIbZhU7ASFwiGtF9PHVRQDqQ8Nf6iDTFA==}
     peerDependencies:
-      typescript: ^5
+      typescript: ^5 || ^6 || ^7
     peerDependenciesMeta:
       typescript:
         optional: true
@@ -7618,9 +7618,7 @@ snapshots:
 
   i18next-fetch-backend@7.0.0: {}
 
-  i18next@25.7.3(typescript@5.9.3):
-    dependencies:
-      '@babel/runtime': 7.28.4
+  i18next@26.4.6(typescript@5.9.3):
     optionalDependencies:
       typescript: 5.9.3
 
@@ -8407,11 +8405,11 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  react-i18next@16.5.1(i18next@25.7.3(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
+  react-i18next@16.5.1(i18next@26.4.6(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
     dependencies:
       '@babel/runtime': 7.28.4
       html-parse-stringify: 3.0.1
-      i18next: 25.7.3(typescript@5.9.3)
+      i18next: 26.4.6(typescript@5.9.3)
       react: 18.3.1
       use-sync-external-store: 1.6.0(react@18.3.1)
     optionalDependencies:
